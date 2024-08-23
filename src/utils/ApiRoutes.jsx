@@ -1,0 +1,22 @@
+export default {
+    SIGNUP:{
+        path:'/user/signup',
+        auth:false
+    },
+    LOGIN:{
+        path:'/user/login',
+        auth:false
+    },
+    FORGOT_PASSWORD:{
+        path:'/user/forgotPassword',
+        auth:false
+    },
+    RESET_PASSWORD:{
+        path:'/user/resetPassword',
+        auth:false
+    },
+    GET_ALL_USER:{
+        path:'/user/getAllUsers',
+        auth:true
+    }
+}
