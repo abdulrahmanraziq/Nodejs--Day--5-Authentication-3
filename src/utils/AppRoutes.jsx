@@ -9,8 +9,8 @@ import ProtectedRoute from "../utils/ProtectedRoutes";
 import TopBar from "../components/TopBar";
 import AdminRoutes from "./AdminRoutes";
 import UserRoutes from "./UserRoutes";
-import UserDashboard from "../components/userDashboard";
-import AdminDashboard from "../components/adminDashboard";
+import UserDashboard from "../components/UserDashboard";
+import AdminDashboard from "../components/AdminDashboard";
 
 const AppRoutes = [
   {
